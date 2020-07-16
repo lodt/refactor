@@ -16,9 +16,14 @@ public class MoveMethodComplete {
 
     static class MemberService {
 
-        public Boolean checkUserType(Member member) {
-            return member.isUser();
+        public void checkUserType(Member member) {
+            if (member.isMember()) {
+                System.out.println("Ok");
+            } else {
+                System.out.println("Error");
+            }
         }
+
     }
 
     @Data
@@ -26,7 +31,7 @@ public class MoveMethodComplete {
 
         private MemberType memberType;
 
-        private Boolean isUser() {
+        private boolean isMember() {
             return getMemberType() == MemberType.USER;
         }
     }

@@ -7,8 +7,8 @@ package com.skplanet.refactorexample.step06;
 public class ExtractMethod2Complete {
 
     void extractMethod() {
-        int initValue = 10;
-        System.out.println("합계 : " + initValue + sum());
+        int sum = 10 + sum();
+        System.out.println("합계 : " + sum);
     }
 
     private int sum() {

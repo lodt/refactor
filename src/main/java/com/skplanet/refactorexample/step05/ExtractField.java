@@ -11,8 +11,12 @@ package com.skplanet.refactorexample.step05;
 @SuppressWarnings({"unused"})
 public class ExtractField {
 
-    private void stringExtractConstant() {
+    private static void stringExtractConstant() {
         System.out.println(3 - 1);
+    }
+
+    public static void main(String[] args) {
+        stringExtractConstant();
     }
 
 }

@@ -16,11 +16,11 @@ public class MoveMethod {
 
     static class MemberService {
 
-        public Boolean checkUserType(Member member) {
+        public void checkUserType(Member member) {
             if (member.getMemberType() == MemberType.USER) {
-                return true;
+                System.out.println("Ok");
             } else {
-                return false;
+                System.out.println("Error");
             }
         }
     }

@@ -1,6 +1,6 @@
 package com.skplanet.refactorexample.step03;
 
-// Refactor > Extract > Variable
+// Refactor > Introduce Variable
 @SuppressWarnings({"unused"})
 public class ExtractVariable {
 
