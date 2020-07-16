@@ -8,6 +8,7 @@ import lombok.ToString;
 @Getter
 @EqualsAndHashCode
 @ToString
+@SuppressWarnings("unused")
 public class DeLombokTest {
 
     private Long id;

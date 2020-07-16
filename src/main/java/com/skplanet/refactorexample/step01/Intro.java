@@ -1,24 +1,26 @@
 package com.skplanet.refactorexample.step01;
 
-// All - Actions
 // Presentation Assistant
-// Show Context Actions (Command + Enter)
+// Search EveryWhere - All - Actions (Presentation Mode)
+// Show Context Actions (Option + Enter)
 // Refactor This...
 
 import java.util.List;
 
+@SuppressWarnings("unused")
 public class Intro {
 
     public boolean test(final int a, final int b) {
-        return a > b ? true : false;
+        return a > b;
     }
 
     public void test2(final String s) {
-        int a = Integer.valueOf(s);
+        int a = Integer.parseInt(s);
     }
 
     public void test3(final List<String> words) {
-        for (String word : words) {
+        for (int i = 0; i < words.size(); i++) {
+            String word = words.get(i);
             System.out.println(word);
         }
     }

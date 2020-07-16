@@ -10,6 +10,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table
+@SuppressWarnings("unused")
 public class MemberEntity {
 
     private Integer id;

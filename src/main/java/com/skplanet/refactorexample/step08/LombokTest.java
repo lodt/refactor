@@ -5,6 +5,7 @@ import lombok.RequiredArgsConstructor;
 
 @Data
 @RequiredArgsConstructor
+@SuppressWarnings("unused")
 public class LombokTest {
 
     private Long id;

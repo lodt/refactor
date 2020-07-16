@@ -1,6 +1,7 @@
 package com.skplanet.refactorexample.step02;
 
 // Live Templetes
+@SuppressWarnings("unused")
 public class LiveTemplates {
 
     // psvm (main)
