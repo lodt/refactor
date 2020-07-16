@@ -11,11 +11,11 @@ import java.util.List;
 public class Intro {
 
     public boolean test(final int a, final int b) {
-        return a > b;
+        return a > b ? true : false;
     }
 
     public void test2(final String s) {
-        int a = Integer.parseInt(s);
+        int a = Integer.valueOf(s);
     }
 
     public void test3(final List<String> words) {
