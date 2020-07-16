@@ -1,8 +1,8 @@
 package com.skplanet.refactorexample.step04;
 
-// Refactor > Extract > Constant
+// Refactor > Introduce Constant
 // Refactor > Inline
-// Refactor > Extract > Delegate
+// Refactor > Extract Delegate
 @SuppressWarnings({"unused"})
 public class ExtractConstant {
 

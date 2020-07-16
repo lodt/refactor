@@ -1,6 +1,6 @@
 package com.skplanet.refactorexample.step06;
 
-// Refactor > Extract > ExtractMethod
+// Refactor > Extract Method
 // Refactor > Change Signature
 // Refactor > Inline
 @SuppressWarnings("unused")
